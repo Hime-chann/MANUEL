@@ -21,9 +21,8 @@ def app():
     st.write('Dataset Description:')
     st.write('Number of Features: 64')
     text = """Feature Representation: Binary values (1 or 0) representing the 8x8 pixels of an image.
-        Target Variable: A single categorical variable representing the class 
-        of the image (e.g., heart, spade, club, or diamond).
-        Potential Applications:"""
+            \nTarget Variable: A single categorical variable representing the class of the image (e.g., heart, spade, club, or diamond).
+            \nPotential Applications:"""
     st.write(text)
     st.write('Playing card symbol classification: Identifying card symbols such as heart, spade, club, and diamond.')
     st.write('Game development: Incorporating card symbol classification into card games or applications.')
